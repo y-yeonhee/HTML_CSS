@@ -1,0 +1,17 @@
+@font-face{
+	src: url("../fonts/MIDDLE1.ttf");
+	font-family:"Middle";
+}
+body{
+	text-align: center;
+	background-color : #eee;
+}
+h2{
+	color:gray;
+	font-family: 'Indie Flower', cursive;
+}
+img{
+	height:300px;
+	margin-left: auto;
+	margin-right: auto;
+}
