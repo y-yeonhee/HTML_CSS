@@ -1,18 +1,21 @@
 @font-face{
-	src:url("../fonts/HoonWhitecatR.ttf");
-	font-family: cat;
 	src:url("../fonts/wagainsal.ttf");
 	font-family: wagain;
 }
+@font-face{
+	src:url("../fonts/HoonWhitecatR.ttf");
+	font-family: cat;
+	
+}
 /*메인 페이지*/
 .practice {
+	font-family: cat;
 	margin-left: 50px;
 	margin-top: 30px;
-	font-family: cat;
+	font-weight: bold;
 }
 .practice p{
     font-size:50px;
-
 }
 .practice a{
 	font-size:30px;
@@ -21,34 +24,34 @@
 }
 /*NO.1 페이지*/
 .kind{
-  margin-right:auto;
-  margin-left:auto;
-  width:300px;
-  background-color : #ffffff;
-  margin-bottom: 50px;
-  border-radius: 10px;
+	margin-right:auto;
+	margin-left:auto;
+	width:300px;
+	background-color : #ffffff;
+	margin-bottom: 50px;
+	border-radius: 10px;
 }
 .kind a{
-	  display:block;
-	  padding-bottom: 20px;
-	  text-decoration: none;
-	  text-align: center;
-	  color: #0000EE;
+	display:block;
+	padding-bottom: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #0000EE;
 			
 }
 .kind h3{
-		  margin:0px;
-		  color: #58595B;
-		  padding-top:20px;
-		  margin=0px;
-		  text-align: center;
-		  font-size: 32px;
-		}
+	margin:0px;
+	color: #58595B;
+	padding-top:20px;
+	margin=0px;
+	text-align: center;
+	font-size: 32px;
+}
 .kind p{
-		   color: #58595B;
-		  margin-top:20px;
-		  margin-bottom: 16px;
-		  padding-left: 20px;
-		  padding-right: 20px;
-		  text-align: center;
-		}
+	color: #58595B;
+	margin-top:20px;
+	margin-bottom: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
