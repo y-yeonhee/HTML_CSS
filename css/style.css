@@ -1,17 +1,54 @@
 @font-face{
-	src: url("../fonts/MIDDLE1.ttf");
-	font-family:"Middle";
+	src:url("../fonts/HoonWhitecatR.ttf");
+	font-family: cat;
+	src:url("../fonts/wagainsal.ttf");
+	font-family: wagain;
 }
-body{
-	text-align: center;
-	background-color : #eee;
+/*메인 페이지*/
+.practice {
+	margin-left: 50px;
+	margin-top: 30px;
+	font-family: cat;
 }
-h2{
-	color:gray;
-	font-family: 'Indie Flower', cursive;
+.practice p{
+    font-size:50px;
+
 }
-img{
-	height:300px;
-	margin-left: auto;
-	margin-right: auto;
+.practice a{
+	font-size:30px;
+	text-decoration: none;
+	margin-left: 50px	
 }
+/*NO.1 페이지*/
+.kind{
+  margin-right:auto;
+  margin-left:auto;
+  width:300px;
+  background-color : #ffffff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.kind a{
+	  display:block;
+	  padding-bottom: 20px;
+	  text-decoration: none;
+	  text-align: center;
+	  color: #0000EE;
+			
+}
+.kind h3{
+		  margin:0px;
+		  color: #58595B;
+		  padding-top:20px;
+		  margin=0px;
+		  text-align: center;
+		  font-size: 32px;
+		}
+.kind p{
+		   color: #58595B;
+		  margin-top:20px;
+		  margin-bottom: 16px;
+		  padding-left: 20px;
+		  padding-right: 20px;
+		  text-align: center;
+		}
