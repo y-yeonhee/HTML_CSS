@@ -1,0 +1,152 @@
+/*NO.2 페이지*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+#navbar{
+  height: 60px;
+  line-height: 60px;
+}
+#logo{
+  padding-left:30px;
+  vertical-align: middle;
+  line-height: normal;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  float:right;
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  font-weight: bold;
+}
+#con{
+  float:right;
+  font-family: Helvetica;
+  font-size: 13px;
+  margin-right: 15px;
+}
+#shop{
+  float:right;
+  font-family: Helvetica;
+  font-size: 13px;
+  margin-right: 15px;
+  margin-left:15px;
+}
+#cart{
+  float:right;
+  font-family: Helvetica;
+  font-size: 13px;
+  margin-right: 15px;
+  margin-left:15px;
+}
+#log{
+  float:right;
+  font-family: Helvetica;
+  font-size: 13px;
+  padding-right:30px;
+  margin-left:15px;
+}
+/* hero header */
+#hero_header{
+  overflow: scroll;
+  text-align: center;
+}
+#hero_header h1{
+  width:100%;
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px 0px;
+}
+/* products */
+#one{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+}
+#two{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+  margin-left: 10px;
+}
+#three{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#four{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+}
+#five{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+  margin-left: 10px;
+}
+#six{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+#seven{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+  
+}
+#eight{
+  float: left;
+  text-align: center;
+  margin-right:10px;
+  margin-left: 10px;
+}
+#nine{
+  float: left;
+  text-align: center;
+  margin-left: 10px;
+}
+.line{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width:100%;
+  float:left;
+  margin-bottom: 80px;
+}
+p{
+  font-size: 16px;
+  font-family: Helvetica;
+}
+.name{
+  margin-top:20px;
+  margin-bottom: 4px;
+}
+.price{
+  margin-top:4px;
+  margin-bottom: 0px;
+}
+#site{
+  width:100%;
+  float:left;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#site img{
+  margin-left:10px;
+  margin-right:10px;
+}
