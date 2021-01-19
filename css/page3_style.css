@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+div{
+  float:left;
+}
+#subtitle{
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+#title{
+  font-size: 20px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+#i_text{
+  font-size: 16px;
+  color:#7A7A7A;
+}
+
+#top{
+  background-color: #353535;
+  margin:0px;
+  height: 60px;
+  width:100%;
+}
+#top h1{
+  font-size:20px;
+  color: white;
+  margin-left:30px;
+  vertical-align: middle;
+}
+
+#main_img{
+  background-image: url("../images/page3/main_img.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+  width:100%;
+}
+#main_text{
+  height: 320px;
+  width:100%;
+  padding-left:30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+#text_a{
+  vertical-align: middle;
+  line-height: normal;
+ 
+}
+#img_1{
+  background-image: url("../images/page3/img1.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 385px;
+  width:100%;
+}
+#img_2{
+  background-image: url("../images/page3/img2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  width:100%;
+}
+#img_3{
+  background-image: url("../images/page3/img3.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  width:100%;
+}
+@media (min-width:768px){
+  #top{
+    height: 60px;
+    width:100%;
+  }
+  #main_img{
+    height: 350px;
+    width:100%;
+  }
+  #main_text{
+    height: 320px;
+    width:100%;
+    padding-left:65px;
+    padding-right: 65px;
+  }
+  #img_1{
+    height: 385px;
+    width:50%;
+  }
+  #img_2{
+    height: 200px;
+    width:50%;
+  }
+  #img_3{
+    width:50%;
+    height: 200px;
+  }
+
+@media (min-width:992px){
+  #top{
+    height: 60px;
+    width:100%;
+  }
+  #main_img{
+    height: 700px;
+    width:50%;
+  }
+  #main_text{
+    height: 350px;
+    width:50%;
+    padding-left:65px;
+    padding-right: 65px;
+  }
+  #img_1{
+    height: 350px;
+    width:25%;
+  }
+  #img_2{
+    height: 175px;
+    width:25%;
+  }
+  #img_3{
+    width:25%;
+    height: 175px;
+  }
